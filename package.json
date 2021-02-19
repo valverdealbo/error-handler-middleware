@@ -1,6 +1,6 @@
 {
   "name": "@valbo/error-handler-middleware",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Express error middleware that sends the error as a json response",
   "keywords": [
     "express",
