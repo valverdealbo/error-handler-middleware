@@ -1,7 +1,6 @@
-/* eslint-disable import/no-unresolved,@typescript-eslint/no-explicit-any,@typescript-eslint/explicit-module-boundary-types */
 import { Request, Response, NextFunction } from 'express';
 
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
+// eslint-disable-next-line @typescript-eslint/no-unused-vars,@typescript-eslint/no-explicit-any,@typescript-eslint/explicit-module-boundary-types
 export function errorHandlerMiddleware(error: any, request: Request, response: Response, next: NextFunction): void {
   const rawStatus = error.status ?? error.statusCode;
   const status = typeof rawStatus === 'number' && rawStatus >= 400 && rawStatus < 600 ? rawStatus : undefined;

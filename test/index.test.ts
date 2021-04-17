@@ -1,6 +1,5 @@
-// eslint-disable-next-line import/no-unresolved
 import { Request, Response } from 'express';
-import { errorHandlerMiddleware } from '.';
+import { errorHandlerMiddleware } from '../src';
 
 describe('errorHandlerMiddleware()', () => {
   const status = jest.fn();
