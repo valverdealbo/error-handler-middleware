@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/valverdealbo/error-handler-middleware/compare/v1.0.3...v1.0.4) (2021-04-17)
+
+
+### Bug Fixes
+
+* update dependencies and tools configurations ([015944d](https://github.com/valverdealbo/error-handler-middleware/commit/015944d72c979de5b486e7ef3231721cae115627))
+
 ## [1.0.3](https://github.com/valverdealbo/error-handler-middleware/compare/v1.0.2...v1.0.3) (2021-02-25)
 
 
